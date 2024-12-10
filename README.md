@@ -1,6 +1,4 @@
 # gavcubed.github.io
-howdy
-
 
 <!DOCTYPE html>
 <html>
