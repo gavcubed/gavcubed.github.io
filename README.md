@@ -1,2 +1,42 @@
 # gavcubed.github.io
 howdy
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GavsPix</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+
+    <body>
+            <!--Navigation bar-->
+            <div id="nav-placeholder">
+                <p>Loading navbar...</p>
+            </div>
+
+            <script>
+            $(function(){
+              $("#nav-placeholder").load("nav.html");
+            });
+            </script>
+            <!--end of Navigation bar-->
+        <h1><img src="MAMAMAMA.gif">Welcome to GavsPix!<img src="MAMAMAMA.gif"></h1>
+        <p>Links be like: <a href="this.html">something</a>. Resizing images be like: <img src="452309862_468155589402770_2036474203544222066_n.jpg" width="100"><br>The br thingy breaks lines<hr>The hr is the same but it adds a line<br><br>You can find some cool gifs at <a href="https://gifcities.org/">GifCities</a></p>
+        <img src="bluebarlitedivider.gif"><br>
+        
+<br>
+<img src=notepad.gif alt="first made in notepad">
+<img src=browser1.gif alt="works with any browser or os"><br>
+    </body>
+</html>
+nav.html
+<div id="logo"><br><br><br></div>
+<table border="1" align="center" div class="void">
+                    <thead>
+                            <tr>
+                      <th><a href="index.html">Home</a></th>
+                                </tr>
+    </thead>
+        </table>
