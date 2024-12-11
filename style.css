@@ -7,8 +7,8 @@
     src: url("comicbd.ttf");
 }
 @font-face {
-    font-family: "serif";
-    src: url("HalloweenMorning.ttf");
+    font-family: "scary";
+    src: url("Halloween Morning.ttf");
 }
 #logo {
     background-image: url("toooth.png");
@@ -45,11 +45,10 @@ a {
     image-rendering: crisp-edges;
 }
 .cur {
-	url(https://cdn.discordapp.com/attachments/635155248792731648/791874829123846164/kwan_50x50.png);
 	background-color: #666666;
 }
 h1 {
-	font-family: "serif";
+	font-family: "scary";
 }
 h2 {
 	font-family: "sansbd";
