@@ -11,19 +11,19 @@
     background-width: 210;
     background-height: 51;
 	background-repeat: no-repeat;
-	background-position: center; 
+	background-position: left; 
 }
 body {
 	background-color: #474452;
 	background-image: url("");
-	text-align: center;
+	text-align: left;
 	font-family: "sans";
 	color: white;
 	text-shadow: 2px 2px 3px black;
 }
 table {
 	border-color: white;
-	table-align: center;
+	table-align: left;
 }
 a {
 	color: #ff00ff;
