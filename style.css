@@ -6,6 +6,10 @@
     font-family: "sansbd";
     src: url("comicbd.ttf");
 }
+@font-face {
+    font-family: "serif";
+    src: url("HalloweenMorning.ttf");
+}
 #logo {
     background-image: url("toooth.png");
     background-width: 210;
