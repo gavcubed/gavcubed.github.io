@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: "scary";
-    src: url("Halloween Morning.ttf");
+    src: url("Halloween Morning.ttf");font-size:64px;
 }
 #logo {
     background-image: url("toooth.png");
