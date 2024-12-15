@@ -1,67 +1,51 @@
-@font-face {
-    font-family: "sans";
-    src: url("comic.ttf");
-}
-@font-face {
-    font-family: "sansbd";
-    src: url("comicbd.ttf");
-}
-@font-face {
-    font-family: "scary";
-    src: url("Halloween Morning.ttf");font-size:64px;
-}
-#logo {
-    background-image: url("toooth.png");
-    background-width: 210;
-    background-height: 51;
-	background-repeat: no-repeat;
-	background-position: center; 
-}
 body {
-	background-color: #474452;
-	background-image: url("");
-	text-align: center;
-	font-family: "sans";
-	color: white;
-	text-shadow: 2px 2px 3px black;
+    background-color: #000000;
+    color: white;
+}
+.notamarquee {
+    text-align: right;
+    margin-bottom: 100px;
+}
+.slideshow {
+    border: 7px solid #ff7f27;
+    margin-left: 50px;
+    text-align: left;
+}
+.linktable {
+    vertical-align: 250px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+.link1 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    color: #22b14c;
+}
+.link2 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    color: #3f48cc;
+}
+.link3 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    color: #ed1c24;
+}
+.link4 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    color: #ffaec9;
 }
 table {
-	border-color: white;
-	table-align: center;
-}
-a {
-	color: #ff00ff;
-	font-family: "sansbd";
-}
-.shadeless {
-	text-shadow: 0px 0px 0px black;
-}
-.smol {
-  font-size: 10px;
+    border-color: white;
 }
 .pix {
-	image-rendering: pixelated;
+    image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
-}
-.cur {
-	background-color: #666666;
-}
-h1 {
-	font-family: "scary";font-size:64px;
-}
-h2 {
-	font-family: "sansbd";
-}
-h3 {
-	font-family: "sansbd";
-}
-h4 {
-	font-family: "sansbd";
-}
-h5 {
-	font-family: "sansbd";
-}
-h6 {
-	font-family: "sansbd";
 }
