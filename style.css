@@ -1,5 +1,6 @@
 body {
     background-color: #000000;
+    text-align: center;
     color: white;
 }
 .notamarquee {
@@ -8,41 +9,38 @@ body {
 }
 .slideshow {
     border: 7px solid #ff7f27;
-    margin-left: 50px;
     text-align: left;
 }
 .linktable {
-    vertical-align: 250px;
-    margin-right: 200px;
-    margin-bottom: 100px;
     padding: 50px;
 }
 .link1 {
+    margin-left: 150px;
     text-align: center;
     text-decoration: none;
     font-size: 50px;
     color: #22b14c;
 }
 .link2 {
+    margin-left: 150px;
     text-align: center;
     text-decoration: none;
     font-size: 50px;
     color: #3f48cc;
 }
 .link3 {
+    margin-left: 150px;
     text-align: center;
     text-decoration: none;
     font-size: 50px;
     color: #ed1c24;
 }
 .link4 {
+    margin-left: 150px;
     text-align: center;
     text-decoration: none;
     font-size: 50px;
     color: #ffaec9;
-}
-table {
-    border-color: white;
 }
 .pix {
     image-rendering: pixelated;
