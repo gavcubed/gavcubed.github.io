@@ -11,7 +11,7 @@ body {
 
 .notamarquee {
   height: var(--height);
-  width:  var(--width);
+  width: var(--width);
   position:absolute;
 
   animation: toRight linear 6.8s infinite alternate, bounce linear 17s infinite alternate;
@@ -55,28 +55,28 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 50px;
-    color: #22b14c;
+    color: #009617;
 }
 .link2 {
     margin-left: 150px;
     text-align: center;
     text-decoration: none;
     font-size: 50px;
-    color: #3f48cc;
+    color: #7b109e;
 }
 .link3 {
     margin-left: 150px;
     text-align: center;
     text-decoration: none;
     font-size: 50px;
-    color: #ed1c24;
+    color: #ff6f00;
 }
 .link4 {
     margin-left: 150px;
     text-align: center;
     text-decoration: none;
     font-size: 50px;
-    color: #ffaec9;
+    color: #0575fc;
 }
 .pix {
     image-rendering: pixelated;
