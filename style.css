@@ -3,9 +3,45 @@ body {
     text-align: center;
     color: white;
 }
+/* css code for bouncy bouncy taken from https://github.com/clemmurphy/DVD-Logo-Animation */
+:root {
+  --width:250px;
+  --height:calc(var(--width) / 2);
+}
+
 .notamarquee {
-    text-align: right;
-    margin-bottom: 100px;
+  height: var(--height);
+  width: var(--width);
+  position:absolute;
+
+  animation: toRight linear 6.8s infinite alternate, bounce linear 17s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    top:0;
+  }
+  48% {
+  }
+  50% {
+    top: calc(100% - var(--height));
+  }
+  52% {
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes toRight {
+
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: calc(100% - var(--width));
+  }
 }
 .slideshow {
     border: 7px solid #ff7f27;
