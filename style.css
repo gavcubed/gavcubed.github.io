@@ -11,7 +11,7 @@ body {
 
 .notamarquee {
   height: var(--height);
-  width: 100;
+  width:  var(--width);
   position:absolute;
 
   animation: toRight linear 6.8s infinite alternate, bounce linear 17s infinite alternate;
