@@ -12,6 +12,7 @@ body {
 .notamarquee {
   height: var(--height);
   width: var(--width);
+  background: img src=("MAMAMAMA.gif");
   position:absolute;
 
   animation: toRight linear 6.8s infinite alternate, bounce linear 17s infinite alternate;
