@@ -14,7 +14,7 @@ body {
   width: var(--width);
   position:absolute;
 
-  animation: toRight linear 6.8s infinite alternate, bounce linear 17s infinite alternate;
+  animation: toRight linear 25s infinite alternate, bounce linear 45s infinite alternate;
 }
 
 @keyframes bounce {
